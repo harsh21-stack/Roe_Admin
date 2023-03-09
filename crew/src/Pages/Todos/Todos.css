@@ -1,0 +1,65 @@
+.todo-header{
+    text-align: left;
+}
+.Todo-list{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+
+}
+.input{
+    border: none;
+    width:800px
+    
+}
+.inputAdd{
+    display: flex;
+    align-items: center;
+    gap:4px
+}
+.tasktype{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 100%;
+}
+.input-list{
+    width: 80%;
+}
+.list-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-button{
+
+border-radius: 50%;
+background-color: gray;
+color: white;
+width: 34px;
+height: 36px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+
+}
+.add-task-button{
+    border-radius: 50%;
+background-color: blue;
+color: white;
+width: 34px;
+height: 36px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+}
+

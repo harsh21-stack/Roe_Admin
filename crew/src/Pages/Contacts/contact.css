@@ -1,0 +1,33 @@
+.contact-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-list{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+.contact-icon{
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 100%;
+        background-color:white ;
+        padding: 6px;
+        margin-left: 10px;
+    
+}
+.contact-modal{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.Modal-input{
+    border: none;
+    background-color: aliceblue;
+    width: 452px;
+    border-radius: 5px;
+}

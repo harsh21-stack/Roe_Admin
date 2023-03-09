@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+height: 55px;
+padding: 10px;
+color: white;
+
+position: sticky;
+background-image :linear-gradient(to right,#311b92 , #9575cd);
+
+}
+.footer-btn{
+  background-color: #42a5f5;
+  border-color: #42a5f5;
+  border-radius: 5px;
+}
