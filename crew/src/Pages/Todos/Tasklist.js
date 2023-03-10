@@ -118,11 +118,6 @@ const Tasklist = ({ type, items, setItems, setAddList }) => {
     }
     return items.filter((ele) => ele.type === type);
   }, [items, type]);
-  const [check, setCheck] = useState(false);
-
-  const removeStrike = () => {
-    setCheck(false);
-  };
 
   const checkEvent = (id) => {
     setItems((oldItems) => {

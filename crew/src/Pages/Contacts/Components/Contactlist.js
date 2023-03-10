@@ -62,8 +62,6 @@ const Contactlist = ({ type }) => {
     } else return searchItems.filter((data) => data.category === type);
   }, [searchItems, type]);
 
-  console.log(typeViseData, "typeViseData");
-
   const getData = (e) => {
     const { value, name } = e.target;
     setInputData((oldContacts) => {

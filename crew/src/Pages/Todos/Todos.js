@@ -44,12 +44,7 @@ const Todos = () => {
   };
 
   const [addList, setAddList] = useState(data);
-  console.log(
-    addList,
-    "addList",
-    items.filter((ele) => ele.type === type).length,
-    "csc"
-  );
+
   const addListEvent = () => {
     setAddList((oldList) => {
       return [

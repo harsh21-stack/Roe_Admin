@@ -14,7 +14,6 @@ const ListTable = ({
   setId,
   setInputData,
 }) => {
-  console.log(typeViseData, "typeViseData");
   const likeEvent = (id) => {
     setContactList((oldContacts) => {
       return oldContacts.map((contact) => {
